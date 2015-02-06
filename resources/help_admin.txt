@@ -1,0 +1,34 @@
+
+Este programa te permite gestionar el asignador de guardias.
+Entre todas las funcionalidades que te ofrece el programa hay: 
+	- Gestionar doctores
+	- Gestionar especialidades
+	- Gestionar hospital
+	- Gestionar asignaciones
+
+Gestionar doctores (Gestión de doctores)
+Esta funcionalidad te permite añadir, consultar, modificar y eliminar doctores.
+Para añadir un doctor tienes dos opciones: 
+	- Importar los datos desde fichero 
+	- Rellenar todos los campos del formulario.
+		DNI, Nombre, Apellidos, Fecha de nacimiento, Dirección, Especialidad, Experiencia y Sueldo
+Para modificar y eliminar un doctor has de seleccionarlo de la lista que te ofrece la interfaz.
+
+Gestionar especialidades
+Esta funcionalidad te permite añadir, consultar, modificar y eliminar especialidades.
+Para añadir una especialidad tienes dos opciones:
+	- Importar los datos desde fichero
+	- Rellenar todos los campos del formulario.
+También si seleccionas una especialidad en particular, te mostrará que doctores pertenecen a dicha especialidad.
+
+Gestionar hospital
+Esta funcionalidad te permite gestionar los dias festivos: añadir festivos, eliminar festivos e importar un calendario de festivos.
+También te permite lanzar los 3 posibles asignadores de guardias: 
+	Asignador sin coste(BFS)
+	Asignador sin coste(DFS)
+	Asignador con coste (Dijkstra).
+
+Gestionar asignaciones
+Esta funcionalidad permite al administrador consultar las asignaciones de los doctores para los dias festivos: 
+	Asignar/desasignar doctores interactivamente
+	Consultar los doctores para un dia festivo/turno.

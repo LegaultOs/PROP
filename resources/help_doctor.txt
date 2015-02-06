@@ -1,0 +1,22 @@
+
+Este programa te permite consultar tus datos personales: 
+	DNI, Nombre, Apellidos, Fecha de nacimiento, Dirección, Especialidad, Experiencia y Sueldo.
+
+También te permite añadir restricciones variadas: NOT, MAX y XOR.
+- NOT:
+	El doctor podrá seleccionar que no quiere trabajar:
+		- Un día concreto del año - Restricción Dia
+		- Un mes concreto del año - Restricción Mes
+		- Un periodo vacacional concreto del año - Restricción Periodo Vacacional
+		- Un día concreto de todas las semanas - Restricción Dia Semanal
+- MAX:
+	El doctor podrá seleccionar un máximo de:
+		- Un máximo de días del año - Restricción Dia
+		- Un máximo de días durante un mes - Restricción Mes
+		- Un máximo de días durante un periodo vacacional - Restricción Periodo Vacacional
+- XOR:
+	El doctor podrá definir una disyunción exclusiva entre dos días concretos del año.
+
+Al igual que añadir también podrás consultar y eliminarlas.
+
+El programa también te ofrece la posibilidad de consultar el calendario anula con todas tus turnos asignados.
